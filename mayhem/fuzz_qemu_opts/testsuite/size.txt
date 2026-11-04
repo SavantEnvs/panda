@@ -1,0 +1,1 @@
+size=1.5G,num=0x1f,flag=off,str=a,,b,,c

@@ -1,0 +1,9 @@
+project: savantenvs/panda
+target: fuzz_net_eth
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_net_eth/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_net_eth
+    libfuzzer: true
+    timeout: 20

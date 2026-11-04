@@ -1,0 +1,1 @@
+{'execute': 'blockdev-add', 'arguments': {'driver': 'qcow2', 'node-name': 'n0', 'file': {'driver': 'file', 'filename': '/tmp/x.qcow2'}}}

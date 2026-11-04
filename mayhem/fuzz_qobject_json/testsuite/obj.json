@@ -1,0 +1,1 @@
+{"execute":"query-block","arguments":{"id":"x","list":[1,2.5,-3e2,true,false,null,"s\u00e9\n"]},"id":1}

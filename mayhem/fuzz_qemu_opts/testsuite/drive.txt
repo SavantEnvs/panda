@@ -1,0 +1,1 @@
+str=/tmp/a.img,num=42,flag=on,size=10M

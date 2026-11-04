@@ -1,0 +1,9 @@
+project: savantenvs/panda
+target: fuzz_qemu_opts
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_qemu_opts/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_qemu_opts
+    libfuzzer: true
+    timeout: 20
